@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vk-chat/static/css/main.739fa3a2.css",
-    "main.js": "/vk-chat/static/js/main.9f99e9d9.js",
+    "main.js": "/vk-chat/static/js/main.0a99cc36.js",
     "static/js/453.df629069.chunk.js": "/vk-chat/static/js/453.df629069.chunk.js",
     "index.html": "/vk-chat/index.html",
     "main.739fa3a2.css.map": "/vk-chat/static/css/main.739fa3a2.css.map",
-    "main.9f99e9d9.js.map": "/vk-chat/static/js/main.9f99e9d9.js.map",
+    "main.0a99cc36.js.map": "/vk-chat/static/js/main.0a99cc36.js.map",
     "453.df629069.chunk.js.map": "/vk-chat/static/js/453.df629069.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.739fa3a2.css",
-    "static/js/main.9f99e9d9.js"
+    "static/js/main.0a99cc36.js"
   ]
 }
