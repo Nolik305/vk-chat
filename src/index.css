@@ -1,5 +1,11 @@
-body {
+/* Обеспечиваем адаптивность и полноэкранную обёртку */
+html, body, #root {
+  height: 100%;
+  width: 100%;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f3f5; /* Светлый фон VK */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +13,43 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Стили для кода, если используешь <code> */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Убираем выделение при тапе на мобильных */
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+/* Кнопки и инпуты — сброс стилей */
+button, input, textarea {
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
+
+/* Контейнеры */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Пример стиля для чата */
+.chat-window {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+/* Пример стиля для поля ввода */
+.chat-input {
+  padding: 8px;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
 }
